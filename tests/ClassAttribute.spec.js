@@ -1,3 +1,4 @@
+//check attribute + dialog box 
 import {test, expect} from '@playwright/test';
 test('Class attribute of an element should identify button when has multiple classes',
   async({page})=>{
