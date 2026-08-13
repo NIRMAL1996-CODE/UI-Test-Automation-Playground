@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('Open website and open Dynamic ID page', async ({ page }) => {
+test('Open website and verify button appears after load delay', async ({ page }) => {
   await page.goto('http://www.uitestingplayground.com/');
   await expect(page.getByRole('link', {name:'Load Delay'})).toBeVisible();
   await page.getByRole('link', {name:'Load Delay'}).click();

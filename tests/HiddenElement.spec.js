@@ -1,5 +1,5 @@
 import{test,expect} from '@playwright/test';
-test('Hidden Layers', async ({ page }) => {
+test('Hidden element Layers', async ({ page }) => {
   await page.goto('http://www.uitestingplayground.com/hiddenlayers');
 
   // First click → button becomes green
