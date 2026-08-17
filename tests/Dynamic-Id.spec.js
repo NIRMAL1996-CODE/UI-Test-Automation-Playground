@@ -1,4 +1,4 @@
-// @ts-check
+
 import { test, expect } from '@playwright/test';
 
 test('Open website and open Dynamic ID page', async ({ page }) => {
